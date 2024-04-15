@@ -1,1 +1,2 @@
-# dist_to_docker
+# nginx-to-angular
+Nginx for Angular compiled
