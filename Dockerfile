@@ -1,3 +1,3 @@
-FROM caddy:latest
-
-COPY ./dist /usr/share/caddy
+FROM httpd:alpine
+COPY ./dist/ /usr/local/apache2/htdocs/
+EXPOSE 80
