@@ -1,5 +1,5 @@
 # #Alan Stefanov
-FROM nginx:alpine
+FROM nginx:alpine-slim
 COPY ./dist /usr/share/nginx/html
 COPY site.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
